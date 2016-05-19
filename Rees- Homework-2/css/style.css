@@ -1,0 +1,224 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: "Open Sans", sans-serif;
+     
+    
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+
+header {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+.headerHeading {
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  padding: 25px 50px 100px 200px;
+}
+
+.headerText {
+color: white;
+font-weight: 600;
+font-size: 24px;
+text-align: center;
+width: 400px;
+margin: auto;
+padding: 100px auto 500px auto;
+}
+
+.buttonYellow {
+  color: #033048;
+  font-weight: 800;
+  font-size: 14px;
+  text-align: center;
+  width: 200px;
+  margin: 50px auto 100px auto;
+  padding: 10px;
+  background-color: #f9e42e;
+  border-radius: 5px;
+}
+
+.Benefits {
+  background: #f0efef;
+}
+
+.mainHeading {
+  color: #033048;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 50px 50px 20px 200px;
+}
+
+.mainText {
+font-weight: 300;
+font-size: 13px;
+width: 600px;
+padding: 5px 50px 10px 200px;
+}
+
+li {
+font-weight: 300;
+font-size: 13px;
+padding: 5px 50px 5px 200px; 
+}
+
+ul {
+  list-style-type: disc; 
+  list-style-position: inside;
+  padding: 5px 50px 50px 50px
+
+}
+
+.quote {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 300px;
+}
+
+.quoteText {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  margin: auto;
+  padding: 75px 50px 5px 50px;
+  text-align: center;
+  width: 425px;
+}
+
+.quoteAttr {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin: auto;
+  padding: 5px 50px 50px 50px;
+  text-align: justify;
+  text-align: center;
+  width: 400px;
+}
+
+.signUp {
+  height: 100px;
+  background: #f9e42e;
+  padding: 33px;
+}
+
+.buttonBlue {
+  color: white;
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: center;
+  width: 200px;
+  margin: auto auto 25px auto;
+  padding: 10px;
+  background-color: #033048;
+  border-radius: 5px;
+}
+
+footer {
+  background: #121212;
+  height: 330px;
+  padding: 60px;
+}
+
+.footerHeading {
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+  padding: 75px auto 50px auto;
+}
+
+nav {
+  padding: 20px;
+  text-align: center;
+}
+
+.Twitter {
+  padding: 20px;
+}
+
+.Facebook {
+  padding: 20px;
+}
+
+.Copyright {
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
+  margin: 50px auto 20px auto;
+  clear: both;
+
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
